@@ -1,8 +1,25 @@
 {
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@emotion/babel-plugin": "^11.12.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "firebase": "^10.13.1"
+    "firebase": "^10.13.1",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
   }
 }
